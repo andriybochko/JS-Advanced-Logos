@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Home Work 02</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="panel panel-default left">
+            <div class="panel-body">
+                    <form action="" name="form1">
+                        <div class="form-group">
+                            <label for="Balance">Баланс
+                            <input type="text" name="Balance" class="form-control" id="balance" readonly>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="Beer">Пиво
+                            <input type="text" name="Beer" class="form-control" id="beer" readonly>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="Wine">Вино
+                            <input type="text" name="Wine" class="form-control" id="wine" readonly>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="Pepsi">Пепсі
+                            <input type="text" name="Pepsi" class="form-control" id="pepsi" readonly>
+                            </label>
+                        </div>
+                    </form>
+            </div>
+        </div>
+
+        <div class="panel panel-default right">
+            <div class="panel-body">
+                <form action="" name="form2">
+                    <div class="form-group">
+                        <label for="Number">Кількість
+                            <input type="number" name="Number" class="form-control" id="count">
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label class="radio-inline">
+                            <input type="radio" name="choose" value="beer" checked>Пиво
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="choose" value="wine">Вино
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="choose" value="pepsi">Пепсі
+                        </label>
+                    </div>
+                    <button type="button" class="btn" name="add" id="add">Додати</button>
+                    <div class="form-group">
+                        <div name="" class="form-control" id="all" readonly></div>
+                    </div>
+                    <button type="button" class="btn" name="buy" id="buy">Купити</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="panel panel-default check">
+            <div class="panel-body" id="check"></div>
+
+        </div>
+    
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
