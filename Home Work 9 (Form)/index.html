@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/jquery.maskedinput.min.js"></script>
+    <title>Home Work JSAdv 09 (Form)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="left">
+            <form action="" name="clothes">
+                <input type="text" name="" class="form-control" placeholder="1.Chest Girth">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="" class="form-control" placeholder="2.Waist Girth">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="" class="form-control" placeholder="3.Hip Girth">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="" class="form-control" placeholder="4.Breast Height">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="" class="form-control" placeholder="5.Forward Length">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="" class="form-control" placeholder="6.Length of the Product">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="" class="form-control" placeholder="7.Back Length">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="" class="form-control" placeholder="8.Width Spins">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="" class="form-control" placeholder="9.Shoulder Width">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="" class="form-control" placeholder="10.Shoulder Length">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="" class="form-control" placeholder="11.Sleeve Length">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="" class="form-control" placeholder="12.Arm Circumference">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="" class="form-control" placeholder="13.Neck Circumference">
+                <span class="error" style="display:none"></span>
+            </form>
+        </div>
+
+        <div class="right"> 
+            <div class="carousel">
+                <div id="leftArrow"></div>
+                <div id="rightArrow"></div>
+                <div id="radio">
+                    <input type="radio" name="radio" id="1" checked>
+                    <input type="radio" name="radio" id="2">
+                    <input type="radio" name="radio" id="3">
+                    <input type="radio" name="radio" id="4">
+                    <input type="radio" name="radio" id="5">
+                    <input type="radio" name="radio" id="6">
+                    <input type="radio" name="radio" id="7">
+                </div>
+            </div>
+            
+            <p>Contacts:</p>
+            <form action="" name="client">
+                <input type="text" name="name" class="form-control client" placeholder="Name">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="phone" id="phone" class="form-control client" placeholder="Phone number">
+                <span class="error" style="display:none"></span>
+                <input type="email" name="email" class="form-control client" placeholder="E-mail">
+                <span class="error" style="display:none"></span>
+                <input type="text" name="height" class="form-control client" placeholder="Height">
+                <span class="error" style="display:none"></span>
+            </form>
+            <button type="button" class="btn default" onclick="validate(form)" id="ok">ОК</button>
+        </div>
+
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

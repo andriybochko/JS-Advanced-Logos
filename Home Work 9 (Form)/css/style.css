@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(98, 155, 155);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left, .right{
+    margin: 20px;
+    width: 30%;
+}
+form:first-child{
+    margin-top: 0;
+}
+
+.form-control{
+    display: inline-block;
+    margin-right: 10px;
+    width: 70%;
+}
+
+span {
+    display: inline-block;
+    text-align: center;
+    margin: 12px auto;
+    padding: 0;
+    width: 100px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.error {
+    border: none;
+
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+}
+
+input {
+    width: 150px;
+    height: 35px;
+    margin: 10px 0;
+}
+
+/* .client {
+    width: 250px;
+    height: 35px;
+    margin: 20px 0;
+} */
+
+button {
+    width: 300px;
+    background-color: firebrick;
+    color: white;
+}
+
+.right {
+
+}
+
+.carousel {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+p{
+    margin: 10px 0;
+}
+
+#leftArrow{
+    position: absolute;
+    background: url(../Images/leftArrow.png);
+    background-repeat: none;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    top: 44%;
+    left: 2%;
+    opacity: 0.6;
+}
+
+#rightArrow{
+    position: absolute;
+    background: url(../Images/rightArrow.png);
+    background-repeat: none;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    top: 44%;
+    right: 2%;
+    opacity: 0.6;
+}
+
+#radio{
+    position: absolute;
+    width: 100%;
+    bottom: 2%;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input[type="radio"]{
+    width: 15px;
+    height: 15px;
+}
