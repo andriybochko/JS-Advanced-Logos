@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.movie{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid lightgrey;
+  width: 23%;
+  text-align: center;
+  font-family: arial;
+  margin: 10px;
+}
+  
+.type, .year{
+  margin: 5px 0;
+  color: dimgrey;
+  font-size: 14px;
+}
+
+a{
+  margin: 5px 0;
+}
+
+#data{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.poster{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  height: 330px;
+  overflow: hidden;
+}
+
+#name{
+  width: 49%;
+}
+
+.form-group{
+  margin: 12px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#search{
+  width: 49%;
+  color: white;
+  background-color: green;
+}
+
+img{
+  height: 100%;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightgrey;
+  padding: 5px;
+  height: 80px;
+  font-size: 18px;
+  font-weight: 700;
+}
