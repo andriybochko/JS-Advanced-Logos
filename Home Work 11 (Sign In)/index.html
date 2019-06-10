@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <form class="form-signin" id="signIn">
+        <div class="form-label-group">
+            <input type="text" id="emailSignIn" class="form-control" placeholder="Email address" required autofocus>
+            <label for="email">Email address</label>
+        </div>
+        <div class="form-label-group">
+            <input type="password" id="passwordSignIn" class="form-control" placeholder="Password" required>
+            <label for="password">Password</label>
+        </div>
+        <div class="form-row">
+            <div class="col">
+                <button class="btn btn-info btn-block" type="button" onclick="registration()">Sign Up</button>
+            </div>
+        </div>
+        <div class="form-row">
+            <a href="#" onclick="toLogin()">Do you have an account?</a>
+        </div>
+    </form>
+
+    <form class="form-signin" id="login" style="display:none">
+        <div class="form-label-group">
+            <input type="text" id="emailLogin" class="form-control" placeholder="Email address" required autofocus>
+            <label for="email">Email address</label>
+        </div>
+        <div class="form-label-group">
+            <input type="password" id="passwordLogin" class="form-control" placeholder="Password" required>
+            <label for="password">Password</label>
+        </div>
+        <div class="form-row">
+            <div class="col">
+                <button class="btn btn-success btn-block" type="button" onclick="login()">Sign In</button>
+            </div>
+        </div>
+        <div class="form-row">
+        <a href="#" onclick="toRegistration()">Create account?</a>
+        </div>
+    </form>
+
+    <form class="form-signin" id="profile" style="display:none">  
+        <div class="form-label-group">
+            <div class="profile">
+                <img src="images/user.png" alt="user">
+            </div>
+            <div class="form-row">
+                <h5 id="user"></h5>
+            </div>
+            <button class="btn btn-warning btn-block" type="button" onclick="toLogOut()">Log Out</button>
+        </div>
+    </form>
+
+    <script src="script/script.js"></script>
+
+</body>
+</html>
